@@ -10,6 +10,7 @@ To use the `Password` class, first initialize it with the desired password lengt
 
 - `minimumSize` (int): The minimum length of the password.
 - `maximumSize` (int): The maximum length of the password.
+- `fixedSize`   (int): The password size.
 - `options` (PasswordOptions): A combination of flags that determine which character types to include. You can combine multiple options using the bitwise OR (`|`) operator.
 
 ### Available Password Options
@@ -19,7 +20,7 @@ To use the `Password` class, first initialize it with the desired password lengt
 - `PasswordOptions.IncludeNumbers`: Include digits.
 - `PasswordOptions.IncludeSpecialCharacters`: Include special characters like `!@#$&*`.
 
-### Example 1: Generate a password with a fixed size of 12 characters
+### Example : Generate a password with a fixed size of 12 characters
 
 ```csharp
 using PasswordGenerator;
